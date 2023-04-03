@@ -39,6 +39,7 @@ address {
 }
 
 body {
+  display: flex;
   font-family: "Poppins", sans-serif;
   background: var(--body-background);
   color: var(--main-text-color);
@@ -53,7 +54,7 @@ body {
 }
 
 .container {
-  max-width: 696px;
+  max-width: 673px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -63,10 +64,9 @@ body {
   flex-direction: row-reverse;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1440px;
+   max-width: 1440px;
   background-color: var(--body-background);
-  gap: 85px;
-}
+ }
 /* HEADER */
 
 .header-container {
@@ -99,7 +99,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   row-gap: 12px;
-  column-gap: 16px;
+  column-gap: 8px;
 }
 .box {
   border: 3px solid;
@@ -172,13 +172,11 @@ line-height: 1.73;
   max-width: 315px;
   padding-bottom: 40px;
 }
-.contacts {
-  display: inline-block;
+.contact {
   font-size: 15px;
   line-height: 1.73;
-  color: #ffffff;
+  color: var(--main-text-color);
 }
-
 .skills {
   max-width: 315px;
   
